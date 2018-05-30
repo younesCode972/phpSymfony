@@ -1,0 +1,63 @@
+body {
+    background-color: #34495e;
+    margin-bottom:0;
+}
+.clear {
+clear:right;
+clear:left;
+}
+
+#myparag1 {
+  text-align: center;
+  color: white;
+ font-size: 30px;
+ width: 100%;
+ height: 20%;
+}
+
+.myHead {
+   text-align: center;
+   background-color: #2c3e50;
+   position: fixed;
+   top: 0;
+   left:1%;
+   right: 1%;
+   z-index: 999;
+   width: 98%;
+   height: 20%;
+}
+#maGauche {
+    float: left;
+    margin:33px;
+}
+.inptHeader{
+  style=" background-color: #2c3e50";
+
+ color: white;
+}
+.mybutton {
+  width:30%;
+  font color="white" ;
+  border-color:white;
+  float: right;
+
+}
+.nav {
+    display:inline-block;
+}
+
+.container {
+    float:left;
+    position:relative;
+    width: 30%;
+}
+.image img {
+    width: 30%;
+
+}
+
+.title {
+    width: 30%;
+    position: absolute;
+    bottom: 0; left: 0;
+}
