@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/master.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <img class="logo" src="../images/logo.jpg">
+  </div>
+
+  <div class="row">
+    <div class="col large-12">
+      <h4 class="text-center"> PIERRE CISEAU PAPIER</h4>
+      <div class="row">
+        <div class="large-12 columns text-center">
+          <p class="text-center">quelle attaque tu vas lancer !!</p>
+          <div class="row">
+            <div class="colm medium-8 large-12 columns">
+              <!--div class="col-lg-4 col-md-3"-->
+              <img id="pierre" class="center" src="../images/pierre.png" onclick="selection('pierre')" value="pierre">
+              <img id="ciseau" class="center" src="../images/ciseaux.jpg" onclick="selection('ciseau')" value="ciseau">
+              <img id="feuille" class="center" src="../images/feuille.jpg" onclick="selection('feuille')" value="feuille">
+            </div>
+          </div>
+
+          <div id="resultat">
+
+
+          </div>
+          <div>
+            <p>Score CPU:
+              <h1 id="scoreCPU"></h1>
+            </p>
+            <p>Score USER:
+              <h1 id="scoreUser"></h1>
+            </p>
+          </div>
+
+
+
+          <script src="../bootstrap/jquery/jquery.js">
+          </script>
+          <script src="../bootstrap/js/bootstrap.min.js">
+          </script>
+          <script src="../js/main.js">
+          </script>
+
+</body>
+
+</html>
