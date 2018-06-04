@@ -1,0 +1,51 @@
+  .wrapper{
+    background-color: green;
+    border-style: solid;
+    border-radius: 2px;
+   }
+  .magic{
+    /*background: url('../images/dragon.jpg') no-repeat;
+    background-size:cover;*/
+    background-color: white;
+    margin:10% 50%;
+    width: 300px;
+    padding: 100px;
+
+   }
+  img{
+    width: 200px;
+    position: relative;
+
+  }
+span{
+color:#f00;
+font-weight:bold;
+display:none;
+text-align: center;
+font-size: 100px;
+font-family: serif;
+margin:20%  20% 20% 20%
+}
+body{background-color: red}
+.toggler1 {
+  width: 500px;
+  height: 200px;
+}
+
+#button {
+  padding: .5em 1em;
+  text-decoration: none;
+}
+
+.effect {
+  width: 240px;
+  height: 170px;
+  padding: 0.4em;
+  position: relative;
+}
+
+.effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
